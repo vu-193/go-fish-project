@@ -11,6 +11,10 @@ import java.util.ArrayList;
  * The class that models your game. You should create a more specific
  * child of this class and instantiate the methods given.
  * @author dancye, 2018
+ * Modified by: Vincent Ursino (991608156) on Monday, April 19, 2021
+ * Modified by: Shibrah Misbah (991593708) on Monday, April 19, 2021
+ * Modified by: Zain Iqbal (991612243) on Monday, April 19, 2021
+ * Modified by: Hardeep Kaur (991603024) on Monday, April 19, 2021
  */
 public abstract class Game 
 {
@@ -57,7 +61,6 @@ public abstract class Game
      * When the game is over, use this method to declare and display a winning
      * player.
      */
-    public abstract void declareWinner();
 
    
     

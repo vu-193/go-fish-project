@@ -8,6 +8,10 @@ package ca.sheridancollege.project;
 /**
  * A class that models each Player in the game. Players have an identifier, which should be unique.
  * @author dancye, 2018
+ * Modified by: Vincent Ursino (991608156) on Monday, April 19, 2021
+ * Modified by: Shibrah Misbah (991593708) on Monday, April 19, 2021
+ * Modified by: Zain Iqbal (991612243) on Monday, April 19, 2021
+ * Modified by: Hardeep Kaur (991603024) on Monday, April 19, 2021
  */
 public abstract class Player 
 {
@@ -43,6 +47,6 @@ public abstract class Player
      * The method to be instantiated when you subclass the Player class
      * with your specific type of Player and filled in with logic to play your game.
      */
-    public abstract void play();
+    public abstract void play(String playerID);
     
 }
